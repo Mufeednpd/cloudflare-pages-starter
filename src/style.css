@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap');
+
+:root{font-family:"DM Sans",sans-serif;color:#f4f6ff;background:#0b1020;font-synthesis:none;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;font-optical-sizing:auto;font-weight:400;scroll-behavior:smooth}
+*{box-sizing:border-box}
+body{margin:0;min-width:320px;background:radial-gradient(ellipse at 50% 0%,#182347 0%,#0b1020 48%);color:#f4f6ff}
+a{color:inherit;text-decoration:none}
+.container{width:min(1120px,calc(100% - 48px));margin:0 auto}
+.nav{height:86px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid rgba(255,255,255,.09)}
+.brand{display:inline-flex;align-items:center;gap:11px;font-family:Manrope,sans-serif;font-size:18px;font-weight:800;letter-spacing:-.6px}
+.brand-mark{display:grid;place-items:center;width:34px;height:34px;border-radius:11px;background:linear-gradient(135deg,#a6f2d5,#8cb7ff);color:#10172a;font-size:18px}
+.brand-light{color:#9aa7c5;font-weight:500}
+.nav-link{display:flex;align-items:center;gap:7px;color:#c6cde0;font-size:13px}
+.hero{padding-top:91px;text-align:center}
+.eyebrow{display:flex;justify-content:center;align-items:center;gap:9px;color:#9fafd2;font-size:10px;font-weight:700;letter-spacing:2px}
+.status-dot{width:7px;height:7px;border-radius:50%;background:#76e5bd;box-shadow:0 0 14px #76e5bd}
+h1,h2,h3,p{margin-top:0}
+h1{font-family:Manrope,sans-serif;font-size:clamp(48px,7.2vw,82px);line-height:1.06;letter-spacing:-5px;margin:25px 0 20px;font-weight:800}
+h1 span{background:linear-gradient(90deg,#a4f0d1,#91b8ff);background-clip:text;-webkit-background-clip:text;color:transparent}
+.hero-copy{max-width:630px;margin:0 auto;color:#aab5d0;font-size:16px;line-height:1.8}
+.hero-actions{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin-top:29px}
+.button{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:13px 18px;border-radius:10px;font-size:13px;font-weight:700;transition:transform .2s,background .2s}
+.button:hover{transform:translateY(-2px)}
+.button-primary{background:#a6f2d5;color:#10172a}
+.button-secondary{border:1px solid rgba(255,255,255,.15);color:#e2e8f7;background:rgba(255,255,255,.03)}
+.deploy-note{display:flex;justify-content:center;align-items:center;gap:10px;flex-wrap:wrap;margin-top:24px;color:#8794b3;font-size:12px}
+.deploy-note svg{color:#a6f2d5}
+.preview-card{margin:58px auto 0;max-width:860px;border:1px solid rgba(255,255,255,.15);border-radius:17px;overflow:hidden;background:rgba(15,22,43,.85);box-shadow:0 30px 90px rgba(0,0,0,.25);text-align:left}
+.preview-top{height:46px;display:flex;align-items:center;gap:17px;padding:0 18px;border-bottom:1px solid rgba(255,255,255,.09);color:#7583a5;font-size:9px;font-weight:700;letter-spacing:1.2px}
+.window-dots{display:flex;gap:5px}.window-dots i{width:7px;height:7px;border-radius:50%;background:#43506e}.window-dots i:first-child{background:#f49a9a}.window-dots i:nth-child(2){background:#e7c47d}.window-dots i:nth-child(3){background:#86d8b8}
+.preview-live{margin-left:auto;color:#8de6c1;letter-spacing:.8px}
+.preview-content{min-height:250px;display:flex;align-items:center;justify-content:space-between;padding:34px 9%;background:radial-gradient(ellipse at 78% 50%,rgba(91,124,207,.19),transparent 45%)}
+.preview-label{font-size:9px;letter-spacing:1.8px;color:#9cafd7;font-weight:700}
+.preview-content h2{font-family:Manrope,sans-serif;font-size:39px;letter-spacing:-1.7px;line-height:1.12;margin:14px 0}
+.preview-content p:last-child{color:#93a0be;font-size:12px;margin-bottom:0}
+.orbit{width:155px;height:155px;position:relative;display:grid;place-items:center;flex-shrink:0}
+.orbit-ring{position:absolute;border:1px solid rgba(157,187,255,.28);border-radius:50%;transform:rotate(-28deg)}
+.ring-one{width:155px;height:78px}.ring-two{width:155px;height:78px;transform:rotate(55deg)}
+.orbit-core{display:grid;place-items:center;width:61px;height:61px;border-radius:20px;background:linear-gradient(135deg,#a6f2d5,#8cb7ff);color:#10172a;font-family:Manrope,sans-serif;font-size:29px;font-weight:800;box-shadow:0 0 40px rgba(140,183,255,.25)}
+.orbit-star{position:absolute;color:#a6f2d5}.star-one{top:15px;right:23px;font-size:18px}.star-two{bottom:16px;left:19px;font-size:22px;color:#a2bfff}
+.features{padding:95px 0 82px}
+.section-heading{text-align:center;max-width:570px;margin:0 auto 34px}
+.section-heading .eyebrow{color:#8de6c1}
+.section-heading h2{font-family:Manrope,sans-serif;font-size:clamp(27px,4vw,39px);letter-spacing:-1.8px;line-height:1.2;margin:15px 0}
+.section-heading>p:last-child{font-size:14px;line-height:1.7;color:#9eabc8}
+.feature-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}
+.feature-card{padding:25px 23px;border:1px solid rgba(255,255,255,.1);border-radius:14px;background:rgba(255,255,255,.025)}
+.feature-icon{width:42px;height:42px;display:grid;place-items:center;border-radius:12px;background:rgba(166,242,213,.1);color:#a6f2d5;margin-bottom:19px}
+.feature-card h3{font-family:Manrope,sans-serif;font-size:16px;margin-bottom:10px}
+.feature-card p{color:#9eabc8;font-size:13px;line-height:1.75;margin-bottom:0}
+.footer{min-height:83px;border-top:1px solid rgba(255,255,255,.09);display:flex;align-items:center;justify-content:space-between;gap:18px;color:#7f8bab;font-size:11px}
+.footer .brand{font-size:15px}.footer .brand-mark{width:28px;height:28px;border-radius:9px;font-size:15px}
+@media(max-width:650px){.container{width:min(100% - 32px,1120px)}.nav{height:70px}.nav-link{font-size:11px}.hero{padding-top:70px}h1{letter-spacing:-3px}.hero-copy{font-size:14px}.preview-content{padding:28px 7%;min-height:220px}.preview-content h2{font-size:30px}.orbit{width:105px;height:105px;transform:scale(.78);margin-right:-10px}.preview-top{gap:10px;padding:0 12px;font-size:8px}.features{padding:72px 0 58px}.feature-grid{grid-template-columns:1fr}.feature-card{padding:22px}.footer{padding:20px 0;align-items:flex-start;flex-direction:column;justify-content:center}}
