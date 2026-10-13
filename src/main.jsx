@@ -7,7 +7,7 @@ const features = [
   {
     icon: <Zap size={21} />,
     title: "Fast by design",
-    description: "A lightweight React and Vite starter that builds into static files for global delivery.",
+    description: "A lightweight React and Vite starter that builds into static files for global delivery",
   },
   {
     icon: <ShieldCheck size={21} />,
